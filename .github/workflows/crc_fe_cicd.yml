@@ -1,9 +1,9 @@
-name: Upload website changes to S3
+name: Upload website to S3
 
-on:  
+on:
   push:
     branches:
-      -main
+      - main
 
 jobs:
   deploy:
